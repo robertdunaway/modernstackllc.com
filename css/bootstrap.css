@@ -4966,9 +4966,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   top: 3px;
   /*content: '\f1fe';*/
   /*background-image:url('angular9.png');*/
-  content:url(../angular9.png/109x109);
+  content:url(../angular9.png);
   
-  font: 400 54px 'FontAwesome';
+  /*font: 400 54px 'FontAwesome';*/
   width: 109px;
   height: 109px;
   line-height: 109px;
