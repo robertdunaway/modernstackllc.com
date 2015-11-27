@@ -4964,7 +4964,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align: center;
   left: 0;
   top: 3px;
-  content: '\f1fe';
+  /*content: '\f1fe';*/
   font: 400 54px 'FontAwesome';
   width: 109px;
   height: 109px;
