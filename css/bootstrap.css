@@ -4958,7 +4958,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align: left;
   display: inline-block;
 }
-/*.navbar-brand:before {
+.navbar-brand:before {
   position: absolute;
   display: inline-block;
   text-align: center;
@@ -4974,7 +4974,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-}*/
+}
 .navbar-brand a {
   text-align: left;
   font-weight: 300;
