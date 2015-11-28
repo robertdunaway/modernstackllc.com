@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="telephone=no" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Trade</title>
+    <title>Home</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Links -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/camera.css" rel="stylesheet">
     <link href="css/search.css" rel="stylesheet">
 
 
@@ -35,97 +37,65 @@
 
 
 </head>
+
 <body>
-<div class="page">
-    <!--========================================================
+    <div class="page">
+        <!--========================================================
                               HEADER
     =========================================================-->
-    <header>
-
-        <section class="clearfix">
+        <header>
 
             <div class="container">
-                <div class="block_login">
-                    <a href="#" class="btn btn-default"><span class="fa fa-user"></span> Open an Account <span
-                            class="fa fa-sort-desc"></span></a>
-                    <a href="#" class="btn btn-primary"><span class="fa fa-lock"></span> login</a>
-                </div>
 
-
-                <div class="navbar-header">
-                    <h1 class="navbar-brand">
-                        <a data-type='rd-navbar-brand' href="./">Stocx
+            <h1 class="navbar-brand">
+                        
+                    <div class="row hidden-xs">
+                        <div class="col-md-2">
+                    <img src="angular9.png" style="width:109px;height:100px;">
+                    </div>
+                    <div class="col-md-10">
+                   <a data-type='rd-navbar-brand' href="./">Modern Stack LLC.
                         </a>
+                        </div>
+                      
                         <span class="brand_slogan">
-                            Stock market
+                            Laser Focused on modern technology trends and approaches
                         </span>
+                               
+                    </div>
                     </h1>
 
-                </div>
             </div>
 
-            <div class="container">
-                <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
-                    <label class="search-form_label">
-                        <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
-                        <span class="search-form_liveout"></span>
-                    </label>
-                    <button class="search-form_submit fa-search" type="submit"></button>
-                </form>
+   
+            <!--</section>-->
+<div style="height: 15px" class="row hidden-xs"></div>
 
+            <div id="stuck_container" class="stuck_container">
+                <nav class="navbar navbar-default navbar-static-top ">
+                    <div class="container">
+
+                        <ul class="navbar-nav sf-menu" data-type="navbar">
+                            <li>
+                                <a href="index-1.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="index-2.html">Our Process</a>
+                            </li>
+                            <li>
+                                <a href="index-3.html">The Modern Stack</a>
+                            </li>
+                            <li>
+                                <a href="index-4.html">Azure Patterns</a>
+                            </li>
+                            <li>
+                                <a href="index-5.html">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-
-        </section>
-
-        <div id="stuck_container" class="stuck_container">
-            <nav class="navbar navbar-default navbar-static-top ">
-                <div class="container">
-
-                    <ul class="navbar-nav sf-menu" data-type="navbar">
-                        <li>
-                            <a href="index-1.html">About us</a>
-                        </li>
-                        <li>
-                            <a href="index-2.html">Investing</a>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="index-3.html">Trade</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Dolore ipsu</a>
-                                </li>
-                                <li>
-                                    <a href="#">Consecte</a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#">Dolore ipsu</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Consecte</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Elit Conseq</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Elit Conseq</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="index-4.html">research</a>
-                        </li>
-
-                        <li>
-                            <a href="index-5.html">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+        </header>
     <!--========================================================
                               CONTENT
     =========================================================-->
