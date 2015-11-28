@@ -1366,6 +1366,7 @@ th {
   .parallax1 p span.h1 {
     float: none;
     display: block;
+    font-size: 50px;
   }
   .parallax1 p em {
     font-size: 140px;
